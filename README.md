@@ -28,3 +28,4 @@ NOTATION :
 - Avancement du projet : 4 points
 - Tests unitaires : 4 points
 - Tests espresso : 4 points
+- Look : jusqu'à 4 points bonus
