@@ -1,11 +1,13 @@
-package com.iutlr.puissance4;
+package fr.aylan.puissancequatre;
 
-import com.iutlr.puissance4.exceptions.ColonneInvalideException;
-import com.iutlr.puissance4.exceptions.ColonnePleineException;
-import com.iutlr.puissance4.exceptions.JoueurException;
-import com.iutlr.puissance4.exceptions.PlateauInvalideException;
+
 
 import java.util.List;
+
+import fr.aylan.puissancequatre.exceptions.ColonneInvalideException;
+import fr.aylan.puissancequatre.exceptions.ColonnePleineException;
+import fr.aylan.puissancequatre.exceptions.JoueurException;
+import fr.aylan.puissancequatre.exceptions.PlateauInvalideException;
 
 public class Plateau {
 

@@ -1,4 +1,4 @@
-package com.iutlr.puissance4;
+package fr.aylan.puissancequatre;
 
 class Joueur {
 

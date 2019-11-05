@@ -1,4 +1,4 @@
-package com.iutlr.puissance4.exceptions;
+package fr.aylan.puissancequatre.exceptions;
 
 public class ColonnePleineException extends Exception {
 }
