@@ -1,4 +1,4 @@
-package fr.aylan.puissancequatre;
+package fr.aylan.puissancequatre.Model;
 
 /**
  * EN_COURS = partie en cours le prochain joueur peut jouer

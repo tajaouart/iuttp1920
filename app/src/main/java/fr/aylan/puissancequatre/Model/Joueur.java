@@ -1,4 +1,4 @@
-package fr.aylan.puissancequatre;
+package fr.aylan.puissancequatre.Model;
 
 class Joueur {
 

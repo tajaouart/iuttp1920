@@ -15,7 +15,6 @@ public class ChoosePlayersNames extends AppCompatActivity {
     RadioButton radioButton2;
     RadioButton radioButton3;
     RadioButton radioButton4;
-    RadioGroup radioGroup;
 
 
     @Override
