@@ -110,6 +110,10 @@ public class ChoosePlayersNames extends AppCompatActivity {
             intent.putExtra("leftNbrPlayers", leftNbrPlayers);
             startActivity(intent);
             finish();
+        }else{
+            Intent intent = new Intent(this, GameActivity.class);
+            startActivity(intent);
+            finish();
         }
     }
 
@@ -118,12 +122,18 @@ public class ChoosePlayersNames extends AppCompatActivity {
         radioButton2.setChecked(false);
         radioButton3.setChecked(false);
         radioButton4.setChecked(false);
+        enableNextBtn();
+    }
+
+    void enableNextBtn(){
+        findViewById(R.id.nextBtn).setEnabled(true);
     }
     private void radioB2IsChecked(View view) {
         radioButton1.setChecked(false);
         radioButton2.setChecked(true);
         radioButton3.setChecked(false);
         radioButton4.setChecked(false);
+        enableNextBtn();
 
     }
     private void radioB3IsChecked(View view) {
@@ -131,6 +141,7 @@ public class ChoosePlayersNames extends AppCompatActivity {
         radioButton2.setChecked(false);
         radioButton3.setChecked(true);
         radioButton4.setChecked(false);
+        enableNextBtn();
 
     }
     private void radioB4IsChecked(View view) {
@@ -138,6 +149,7 @@ public class ChoosePlayersNames extends AppCompatActivity {
         radioButton2.setChecked(false);
         radioButton3.setChecked(false);
         radioButton4.setChecked(true);
+        enableNextBtn();
 
     }
 
