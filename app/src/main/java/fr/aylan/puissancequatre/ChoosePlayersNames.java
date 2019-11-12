@@ -33,6 +33,8 @@ public class ChoosePlayersNames extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_players_names);
 
+        disableNextButton();
+
 
 
         Intent intent = getIntent();
@@ -127,6 +129,10 @@ public class ChoosePlayersNames extends AppCompatActivity {
 
     void enableNextBtn(){
         findViewById(R.id.nextBtn).setEnabled(true);
+    }
+
+    void disableNextButton(){
+        findViewById(R.id.nextBtn).setEnabled(false);
     }
     private void radioB2IsChecked(View view) {
         radioButton1.setChecked(false);
