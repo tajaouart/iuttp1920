@@ -1,6 +1,8 @@
 package fr.aylan.puissancequatre.Model;
 
-class Joueur {
+import java.io.Serializable;
+
+public class Joueur  implements Serializable {
 
     /**
      * Crée un joueur

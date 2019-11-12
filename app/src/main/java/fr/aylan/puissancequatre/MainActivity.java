@@ -18,17 +18,22 @@ public class MainActivity extends AppCompatActivity {
 
         etGridDimensions = findViewById(R.id.etGridDimensions);
         etNbrPlayers = findViewById(R.id.etNbrPlayers);
+
     }
 
 
     public void nextChoosePlayersNames(View view){
-        int nbrPlayers = Integer.parseInt(etNbrPlayers.getText().toString());
+        int nbrPlayers     = Integer.parseInt(etNbrPlayers.getText().toString());
         int gridDimensions = Integer.parseInt(etGridDimensions.getText().toString());
 
-        Intent intent = new Intent(this, ChoosePlayersNames.class);
-        intent.putExtra("nbrPlayers",nbrPlayers);
-        intent.putExtra("gridDimensions",gridDimensions);
+        ((App) getApplication()).nbrPlayers = nbrPlayers;
+        ((App) getApplication()).gridDimensions = gridDimensions;
+        ((App) getApplication()).initialize(nbrPlayers);
 
+
+
+        Intent intent = new Intent(this, ChoosePlayersNames.class);
+        intent.putExtra("leftNbrPlayers",nbrPlayers);
         startActivity(intent);
 
 
