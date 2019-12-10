@@ -16,7 +16,7 @@ public class App extends Application {
 
 
     public void initialize(int nbtJoueurs){
-       joueurs = new ArrayList<Joueur>(nbtJoueurs);
+       joueurs = new ArrayList<>(nbtJoueurs);
        colors = new ArrayList<>(4);
        colors.add(R.drawable.green_pion);
        colors.add(R.drawable.red_pion);
@@ -25,7 +25,7 @@ public class App extends Application {
     }
 
 
-     public void addJoueur(Joueur joueur){
+    public void addJoueur(Joueur joueur){
         this.joueurs.add(joueur);
      }
 

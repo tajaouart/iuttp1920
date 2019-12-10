@@ -6,4 +6,1161 @@
     android:layout_height="match_parent"
     tools:context=".GameActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#3578C7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3578C7"
+            android:padding="5sp"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center">
+
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/b_1_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="1sp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/round_button"
+                        android:imeActionId="0"
+
+                        tools:ignore="ButtonStyle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/b_2_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="1sp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/round_button"
+                        android:imeActionId="1"
+
+                        tools:ignore="ButtonStyle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        android:id="@+id/b_3_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="1sp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/round_button"
+                        android:imeActionId="2"
+
+                        tools:ignore="ButtonStyle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+
+                     <Button
+                        android:id="@+id/b_4_1"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="1sp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/round_button"
+                        android:imeActionId="3"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_5_1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="4"
+                    tools:ignore="ButtonStyle,TextViewEdits" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/b_6_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="1sp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/round_button"
+                        android:imeActionId="5"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="ButtonStyle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_7_1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="6" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_8_1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="7" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_1_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="13" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_2_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="14" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_3_2"
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="15" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_4_2"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="16" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_5_2"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="17" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_6_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="18" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_7_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="19" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_8_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="20" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_1_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="26" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_2_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="27" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_3_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="28" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_4_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="29" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_5_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="30" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_6_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="31" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_7_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="32" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_8_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="33" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_1_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="39" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_2_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="40" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_3_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="41" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_4_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="42" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_5_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="43" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_6_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="44" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_7_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="45" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_8_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="46" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_1_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="52" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_2_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="53" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_3_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="54" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_4_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="55" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_5_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="56" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_6_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="57" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_7_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="58" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_8_5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="59" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5">
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_1_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="65" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_2_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="66" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_3_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="67" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_4_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="68" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_5_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="69" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_6_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="70" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_7_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="71" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:padding="5dp">
+                     <Button
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/b_8_6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/round_button"
+                    android:imeActionId="72" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TableLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#3578C7"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5">
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <ImageView
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="65" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <Button
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="66" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <Button
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="67" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <Button
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="68" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <Button
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="69" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <Button
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="70" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <Button
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="71" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:padding="5dp">
+                <Button
+                    android:rotation="90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="1sp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/ic_position_24"
+                    android:imeActionId="72" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

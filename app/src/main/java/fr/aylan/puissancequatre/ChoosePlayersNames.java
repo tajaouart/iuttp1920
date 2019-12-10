@@ -23,19 +23,12 @@ public class ChoosePlayersNames extends AppCompatActivity {
 
     int leftNbrPlayers;
 
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_players_names);
 
         disableNextButton();
-
-
 
         Intent intent = getIntent();
         leftNbrPlayers = intent.getIntExtra("leftNbrPlayers",0);
@@ -63,7 +56,7 @@ public class ChoosePlayersNames extends AppCompatActivity {
     private void initializeRB() {
         ArrayList<Integer> colors = ((App) getApplication()).colors;
 
-        // id color is taken then disable RB
+        // iF color is taken then disable RB
         if(colors.get(0) == null){
             findViewById(R.id.radioButton1).setEnabled(false);
         }
@@ -76,14 +69,12 @@ public class ChoosePlayersNames extends AppCompatActivity {
         if(colors.get(3) == null){
             findViewById(R.id.radioButton4).setEnabled(false);
         }
-
-
     }
 
 
 
 
-    // Go to next player
+    // Go to next player's VIEW
     public void nextPlayer(View view){
 
         String nom = findViewById(R.id.etNom).toString();

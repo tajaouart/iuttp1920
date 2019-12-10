@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
     EditText etGridDimensions;
     EditText etNbrPlayers;
 
@@ -35,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ChoosePlayersNames.class);
         intent.putExtra("leftNbrPlayers",nbrPlayers);
         startActivity(intent);
-
-
-
 
     }
 }
