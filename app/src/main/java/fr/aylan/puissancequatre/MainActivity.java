@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
         etGridDimensions = findViewById(R.id.etGridDimensions);
         etNbrPlayers = findViewById(R.id.etNbrPlayers);
+
+
+        //Remove notification bar
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
     }
 
