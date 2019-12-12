@@ -1027,8 +1027,9 @@
                 android:padding="5dp">
 
                 <ImageView
+                    android:id="@+id/btnPosition0"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
                     android:layout_weight=".5"
                     android:background="@drawable/ic_position_24"
@@ -1046,8 +1047,9 @@
                 android:padding="5dp">
 
                 <ImageView
+                    android:id="@+id/btnPosition1"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
                     android:background="@drawable/ic_position_24"
                     android:rotation="90"
@@ -1063,8 +1065,9 @@
                 android:padding="5dp">
 
                 <ImageView
+                    android:id="@+id/btnPosition2"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
                     android:background="@drawable/ic_position_24"
                     android:rotation="90"
@@ -1080,8 +1083,9 @@
                 android:padding="5dp">
 
                 <ImageView
+                    android:id="@+id/btnPosition3"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
                     android:background="@drawable/ic_position_24"
                     android:rotation="90"
@@ -1097,8 +1101,9 @@
                 android:padding="5dp">
 
                 <ImageView
+                    android:id="@+id/btnPosition4"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
                     android:background="@drawable/ic_position_24"
                     android:rotation="90"
@@ -1114,8 +1119,9 @@
                 android:padding="5dp">
 
                 <ImageView
+                    android:id="@+id/btnPosition5"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
                     android:background="@drawable/ic_position_24"
                     android:rotation="90"
@@ -1131,8 +1137,9 @@
                 android:padding="5dp">
 
                 <ImageView
+                    android:id="@+id/btnPosition6"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
                     android:background="@drawable/ic_position_24"
                     android:rotation="90"
@@ -1148,13 +1155,12 @@
 
                 android:padding="5dp">
 
-                <Button
+                <ImageView
+                    android:id="@+id/btnPosition7"
                     android:layout_width="37dp"
-                        android:layout_height="37dp"
+                    android:layout_height="37dp"
                     android:layout_margin="1sp"
-                    android:layout_weight=".5"
                     android:background="@drawable/ic_position_24"
-                    android:imeActionId="72"
                     android:rotation="90"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -1178,7 +1184,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/playBtn"
         android:layout_width="67dp"
         android:layout_height="67dp"
         android:layout_marginBottom="60dp"
@@ -1188,33 +1194,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/constraintLayout2" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+    <Button
+        android:id="@+id/previousPositionBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="66dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_position_24"
+        android:onClick="previousBtn"
+        android:rotation="180"
+        app:layout_constraintBottom_toTopOf="@+id/playBtn"
+        app:layout_constraintEnd_toStartOf="@+id/playBtn"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout2" />
+
+    <Button
+        android:id="@+id/nextPositionBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="66dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_position_24"
+        android:onClick="nextBtn"
+        app:layout_constraintBottom_toTopOf="@+id/playBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/constraintLayout2">
-
-        <Button
-            android:id="@+id/button3"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="66dp"
-            android:layout_height="75dp"
-            android:background="@drawable/ic_position_24"
-            android:rotation="180"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/button4"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/button4"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="66dp"
-            android:layout_height="75dp"
-            android:background="@drawable/ic_position_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintStart_toEndOf="@+id/playBtn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
