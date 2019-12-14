@@ -20,6 +20,7 @@ class GameActivity : AppCompatActivity() {
     private var playBtn: Button? = null
     private var currentPosition = 0
     private var red: Drawable? = null
+    private var yellow: Drawable? = null
     var sceneInBool: ArrayList<ArrayList<Boolean>>? = null
 
 
@@ -47,6 +48,7 @@ class GameActivity : AppCompatActivity() {
         this.setVisibility(View.VISIBLE, 0)
 
         this.red = ContextCompat.getDrawable(this, R.drawable.red_round_button  )
+        this.yellow = ContextCompat.getDrawable(this, R.drawable.yellow_round_button  )
 
     }
 
@@ -208,8 +210,44 @@ class GameActivity : AppCompatActivity() {
                     findViewById<Button>(it).background = this.red
                 }
                 this.sceneInBool?.get(this.currentPosition)?.set(x,true)
+                robotPlay(x+1)
 
                 return
+            }
+        }
+
+
+
+
+    }
+
+    private fun robotPlay(x: Int){
+        // rotating or not the ship depending on the random value
+        var random = Math.random()
+        if ((random * 100.toDouble()).toInt() % 2 == 0) {
+            strategy(currentPosition)
+        }else{
+            strategy(currentPosition+1)
+        }
+
+    }
+
+
+    private fun strategy(y : Int){
+        var y = y
+        if(y > 7) y = 0
+        for (x in 0..5){
+            if(!requireNotNull(this.sceneInBool?.get(y)?.get(x))){
+
+                this.listGameSpace?.get(y)?.get(x)?.let {
+                    findViewById<Button>(it).background = this.yellow
+                }
+                this.sceneInBool?.get(y)?.set(x,true)
+
+
+                return
+            }else if (x>=5){
+                strategy(y+1)
             }
         }
 
