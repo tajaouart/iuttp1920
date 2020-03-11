@@ -4,8 +4,7 @@ package fr.aylan.puissancequatre.Model;
 
 import java.util.List;
 
-import fr.aylan.puissancequatre.Model.EtatPartie;
-import fr.aylan.puissancequatre.Model.Joueur;
+
 import fr.aylan.puissancequatre.exceptions.ColonneInvalideException;
 import fr.aylan.puissancequatre.exceptions.ColonnePleineException;
 import fr.aylan.puissancequatre.exceptions.JoueurException;
