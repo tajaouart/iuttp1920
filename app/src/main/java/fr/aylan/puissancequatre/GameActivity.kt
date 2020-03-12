@@ -69,25 +69,14 @@ class GameActivity : AppCompatActivity() {
 
     private fun initializeSceneInBool() {
 
-
-
-
         for (x in 0..7){
 
             var column = ArrayList<Boolean>(6)
             for (y in 0..5){
                 column.add(y,false)
             }
-
             this.sceneInBool?.add(x,column)
         }
-
-        for (x in 0..7){
-            for (y in 0..5) {
-                this.sceneInBool?.get(x)?.set(y, false)
-            }
-        }
-
     }
 
     private fun initializeGameSpaces() {
